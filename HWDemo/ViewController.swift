@@ -18,6 +18,10 @@ class ViewController: UIViewController {
         btn.backgroundColor = UIColor.black
         self.view.addSubview(btn)
         
+        let leb = UILabel()
+        self.view.addSubview(leb)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

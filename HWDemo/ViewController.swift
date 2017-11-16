@@ -14,10 +14,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.view.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
-        let btn = UIButton(type: .custom)
-        btn.backgroundColor = UIColor.black
-        self.view.addSubview(btn)
-        
     }
 
     override func didReceiveMemoryWarning() {

@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         
         let leb = UILabel()
         self.view.addSubview(leb)
-        
+        print("xcode9")
         
     }
 
